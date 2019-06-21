@@ -16,6 +16,7 @@
 		D419124E22BAF3C30085D902 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D419124C22BAF3C30085D902 /* LaunchScreen.storyboard */; };
 		D419125622BAF44A0085D902 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D419125522BAF44A0085D902 /* GameManager.swift */; };
 		D419125822BBF4AD0085D902 /* AppIcon.appiconset in Resources */ = {isa = PBXBuildFile; fileRef = D419125722BBF4AC0085D902 /* AppIcon.appiconset */; };
+		D44C19F1FDE322D2B29492A2 /* Pods_snek.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC94E33141C97DC2D4C27169 /* Pods_snek.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		D419124F22BAF3C30085D902 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D419125522BAF44A0085D902 /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
 		D419125722BBF4AC0085D902 /* AppIcon.appiconset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AppIcon.appiconset; path = "../../../Downloads/Screen Shot 2019-06-19 at 10.14.12 PM/ios/AppIcon.appiconset"; sourceTree = "<group>"; };
+		FC94E33141C97DC2D4C27169 /* Pods_snek.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_snek.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D44C19F1FDE322D2B29492A2 /* Pods_snek.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +60,7 @@
 		5CC9EFCABA8FC4CF50E5BC31 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FC94E33141C97DC2D4C27169 /* Pods_snek.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

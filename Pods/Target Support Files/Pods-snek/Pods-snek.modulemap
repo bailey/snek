@@ -1,0 +1,6 @@
+framework module Pods_snek {
+  umbrella header "Pods-snek-umbrella.h"
+
+  export *
+  module * { export * }
+}
