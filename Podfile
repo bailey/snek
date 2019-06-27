@@ -7,5 +7,7 @@ target 'snek' do
 
   # Pods for snek
   pod 'AppCenter'
+  pod 'AppCenter/Push'
+  
 
 end

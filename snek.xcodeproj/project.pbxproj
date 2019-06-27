@@ -31,6 +31,7 @@
 		D419124D22BAF3C30085D902 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D419124F22BAF3C30085D902 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D419125522BAF44A0085D902 /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+		D4622EFB22C543B7000EC4FB /* snek.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = snek.entitlements; sourceTree = "<group>"; };
 		FC94E33141C97DC2D4C27169 /* Pods_snek.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_snek.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -84,6 +85,7 @@
 		D419123C22BAF3C20085D902 /* snek */ = {
 			isa = PBXGroup;
 			children = (
+				D4622EFB22C543B7000EC4FB /* snek.entitlements */,
 				D419123D22BAF3C20085D902 /* AppDelegate.swift */,
 				D419123F22BAF3C20085D902 /* GameScene.sks */,
 				D419124322BAF3C20085D902 /* GameScene.swift */,
@@ -130,6 +132,11 @@
 				TargetAttributes = {
 					D419123922BAF3C20085D902 = {
 						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -345,6 +352,7 @@
 			baseConfigurationReference = 251F26074C45680247946EB0 /* Pods-snek.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = snek/snek.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UBF8T346G9;
@@ -366,6 +374,7 @@
 			baseConfigurationReference = 08143EB602F925FE0A808C4E /* Pods-snek.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = snek/snek.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UBF8T346G9;
